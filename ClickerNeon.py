@@ -32,10 +32,10 @@ def turnoff():
 def pos():
     print("Tenes 5 segundos para colocar el cursor arriba del boton 'START NEW SHIFT'")
     time.sleep(6)
-    print(f"Valor de X e Y: #{pa.position()}")
+    print(f"Valor de X e Y (New Shift): #{pa.position()}")
     print("Tenes 5 segundos para colocar el cursor arriba del boton 'BANK PAY'")
     time.sleep(6)
-    print(f"Valor de X e Y (): #{pa.position()}")
+    print(f"Valor de X e Y (Bank Pay): #{pa.position()}")
 
 # Repetidor de clicks
 
@@ -72,7 +72,3 @@ while z != 4:
         repetidor()      
     if z == 4:
         break
-
-
-
-
